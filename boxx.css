@@ -2,6 +2,9 @@ body {
 	font-family: Verdana, Arial,sans-serif;
 	background-color: black;
 	color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 h2 {
@@ -23,17 +26,24 @@ link {
 }
 
 docs {
-	display: block;
-	background-color: #ffffe6;
-	margin: 20px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	padding: 5px;
-	color: #7f7f7f;
-	border: 1px solid silver;
+
 }
 
 img.displayed {
-    display: block;
+	display: inline;
     margin-left: auto;
     margin-right: auto 
+}
+  
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+table.td {
+	vertical-align: top;
 }
