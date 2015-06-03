@@ -16,34 +16,10 @@ h4 {
 	color: yellow;
 }
 
-rss {
-	display: block;	
-}
-
-title {
-	display: block;
-	margin: 5px;
-	padding: 2px;
-	color: red;
-	border-bottom: 1px solid silver;
-}
-
 link {
 	display: block;
 	font-size: small;
 	padding-left: 10px;
-}
-
-item {
-	display: block;
-	padding: 2px 30px 2px 30px;
-}
-
-description
-{
-	display:block;
-	font-size:10pt;
-	
 }
 
 docs {
@@ -55,20 +31,9 @@ docs {
 	color: #7f7f7f;
 	border: 1px solid silver;
 }
-table th {
-	background-color: red;
-	color: #7f7f7f;
-}
 
 img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
-
-
-/* all hidden elements */
-language, lastBuildDate, ttl, guid, category, description, pubDate {
-	display: none;
-}
-
